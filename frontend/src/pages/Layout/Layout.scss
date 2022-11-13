@@ -2,5 +2,15 @@
 
 .layout {
   margin: auto;
+  padding: 0 1.6rem;
   max-width: 1200px;
+
+  main {
+    margin-top: 2.4rem;
+
+    h1 {
+      font-family: $secondary-font;
+      margin-bottom: 1.6rem;
+    }
+  }
 }

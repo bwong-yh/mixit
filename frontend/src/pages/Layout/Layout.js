@@ -6,13 +6,14 @@ import Navbar from '../../components/navbar/Navbar';
 
 const Layout = () => {
   return (
-    <div className='layout'>
+    <>
       <Navbar />
-
-      <main>
-        <Outlet />
-      </main>
-    </div>
+      <div className='layout'>
+        <main>
+          <Outlet />
+        </main>
+      </div>
+    </>
   );
 };
 
