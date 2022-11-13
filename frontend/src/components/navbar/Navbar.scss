@@ -1,0 +1,24 @@
+@import '../../sharedStyles';
+
+.navbar {
+  background-color: $secondary-color;
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 1.6rem;
+    max-width: 1200px;
+  }
+
+  h1 {
+    color: $primary-color;
+    font-family: $secondary-font;
+    font-size: 4.2rem;
+  }
+
+  a {
+    font-size: 2.4rem;
+  }
+}

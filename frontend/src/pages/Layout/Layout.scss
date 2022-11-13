@@ -1,0 +1,17 @@
+@import '../../sharedStyles';
+
+.layout {
+  margin: auto;
+  padding: 0 1.6rem;
+  max-width: 1200px;
+
+  main {
+    margin-top: 2.4rem;
+
+    h1 {
+      font-family: $secondary-font;
+      font-size: 3.6rem;
+      margin-bottom: 1.6rem;
+    }
+  }
+}
