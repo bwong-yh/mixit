@@ -1,0 +1,28 @@
+@import './sharedStyles';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%; // 10px = 1rem
+}
+
+body {
+  font-family: $primary-font;
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+
+a {
+  color: $primary-color;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
