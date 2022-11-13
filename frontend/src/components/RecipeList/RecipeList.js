@@ -4,7 +4,7 @@ const RecipeList = ({ recipes }) => {
   return (
     <div className='recipe-list'>
       {recipes.map(recipe => (
-        <div className='recipe-list__card'>
+        <div key={recipe.id} className='recipe-list__card'>
           <h3>{recipe.name}</h3>
           <img src={recipe.image} alt={recipe.name} />
           <p>{recipe.instruction}</p>
